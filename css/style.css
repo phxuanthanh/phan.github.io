@@ -220,6 +220,7 @@ body{
     text-transform: uppercase;
     font-weight: 600;
     font-size: 16px;
+    text-shadow: 0 0 8px rgb(96, 96, 96);
 }
 
 #nav li a{
