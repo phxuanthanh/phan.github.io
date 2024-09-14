@@ -1,5 +1,63 @@
 
-/* Tablet & mobile */
+/* PC Low */
+@media (max-width: 1366px){
+
+    #nav li a{
+        padding: 0 60px 0 0;
+    }
+    
+    #nav > li > a{
+        font-size: 14px;
+    }
+
+    #home-header .logo{
+        width: 80px;
+    }
+
+    #home-bg .text-heading span{
+        font-size: 120px;
+    }
+
+    .img-border {
+        width: 180px ;
+        height: 360px;
+    }
+
+    .img-border:nth-child(2) {
+        margin: 0 8px;
+        transform: translateY(-40px);
+    }
+
+
+    .modal-container {
+        width: 700px;
+    }
+
+    .modal-header {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .modal-header .ticket-icon{
+        font-size: 20px;
+    }
+
+    .modal-body{
+        font-size: 12px;
+        padding: 0 16px;  
+    }
+
+    .modal-input{
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        font-size: 12px;
+        padding: 11px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Tablet & Mobile */
 @media (max-width: 1025px){
     #home-header{
         width: 100%;
@@ -13,7 +71,6 @@
     #content #content-section{
         width: 100%;
         margin-top: 0;
-        
     }
 
     .feedback-container{
